@@ -1,0 +1,22 @@
+_type: "prompt"
+template: |
+
+  You are an assistant for question-answering tasks. 
+  Use the following pieces of retrieved context to answer the question. 
+  If you don't know the answer, just say that you don't know. 
+  Please include your answer
+  Answer in Korean.
+
+  #Question: 
+  {question} 
+  #Context: 
+  {context} 
+  # EXample Format :
+  (answer to the question)
+  출처 :
+  - (filename, page number)
+  #Answer:
+  
+
+
+input_variables: ["question"]

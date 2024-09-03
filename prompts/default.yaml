@@ -1,0 +1,9 @@
+_type: "prompt"
+template: |
+  당신은 친절한 ai입니다 질문에 친절히 답변해 주세요.
+  #Question :
+  {question}
+  
+
+
+input_variables: ["question"]

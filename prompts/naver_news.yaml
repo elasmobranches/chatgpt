@@ -1,0 +1,17 @@
+_type: "prompt"
+template: |
+  Please summarize the sentence according to the following REQUEST.
+  REQUEST:
+  1. Summarize the main points in bullet points in KOREAN.
+  2. Each summarized sentence must start with an emoji that fits the meaning of the each sentence.
+  3. do not Use various emojis to make the summary more interesting.
+  4. Translate the summary into KOREAN if it is written in ENGLISH.
+  5. DO NOT translate any technical terms.
+  6. DO NOT include any unnecessary information.
+
+  CONTEXT:
+  {context}
+
+  SUMMARY:
+
+input_variables: ["question"]
